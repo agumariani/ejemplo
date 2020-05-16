@@ -1,0 +1,45 @@
+$color: black;
+#bg-img{
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+  position: fixed;
+}
+div{
+  span{
+    color: $color;
+    position: absolute;
+    top: 0px;
+    border-radius: 5px;
+    font-family: comic;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    width: 100%;
+  }
+}
+a{
+  color: $color;
+}
+a:hover{
+  color: black;
+  text-shadow: 5px;
+}
+
+h1{
+  display:block;
+  text-align: center;
+  font-size: 45px;
+}
+p{
+margin-left: 20px;
+margin-right: 20px;
+}
+h3{
+  text-align: left;
+  text-decoration: underline;
+}
+.content{
+  text-align: justify;
+
+}
